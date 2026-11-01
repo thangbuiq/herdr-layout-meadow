@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Written into mod folders by the Herdr app
+gpui-kit.d.ts
+herdr.d.ts
+jsconfig.json
+
+# Reports Herdr writes next to an invalid file
+*.error
