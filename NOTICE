@@ -1,9 +1,0 @@
-Meadow for Herdr
-Copyright 2026 thangbuiq
-
-This product includes modified software from Herdr
-(https://github.com/herdrdev/herdr-app), licensed under the Apache License 2.0:
-
-- mods/meadow-spaces is modified from Herdr's `spaces` mod
-- mods/meadow-agents is modified from Herdr's `agents` mod
-- layouts/meadow.json is modified from Herdr's `main` layout
