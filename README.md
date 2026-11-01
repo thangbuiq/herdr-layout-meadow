@@ -1,4 +1,4 @@
-# Meadow for Herdr
+# 🐮 Meadow for Herdr 
 
 A layout for the [Herdr](https://herdr.dev) desktop app that turns your agents into a herd of cows. See at a glance who needs you, who has finished and who is still working.
 
@@ -11,7 +11,11 @@ A layout for the [Herdr](https://herdr.dev) desktop app that turns your agents i
 - Paste to your coding agent:
 
 ```text
-Install the Meadow layout for the Herdr desktop app from https://github.com/thangbuiq/herdr-layout-meadow: clone it to a temp folder, then copy its layouts/, themes/ and mods/ contents into the Herdr folder ($HERDR_APP_HOME, else $XDG_CONFIG_HOME/herdr-app, else ~/.config/herdr-app), first backing up any files it would replace to .meadow-backups/<timestamp>/ there. Run `herdr-app check` on each mod (~/.local/bin/herdr-app if not on PATH), then `herdr-app do layout.switch --name meadow`; if Herdr is closed, tell me to open it and pick Meadow in Settings > Look. Delete the temp folder and report the result.
+Install the Meadow layout for the Herdr desktop app from https://github.com/thangbuiq/herdr-layout-meadow: clone it to a temp folder,
+then copy its layouts/, themes/ and mods/ contents into the Herdr folder ($HERDR_APP_HOME, else $XDG_CONFIG_HOME/herdr-app, else ~/.config/herdr-app),
+first prompt me want to back up any files, then it would replace to .meadow-backups/<timestamp>/ there.
+Run `herdr-app check` on each mod (~/.local/bin/herdr-app if not on PATH), then `herdr-app do layout.switch --name meadow`;
+if Herdr is closed, tell me to open it and pick Meadow in Settings > Look. Delete the temp folder and report the result.
 ```
 
 To remove Meadow, ask your agent (launch in herdr-app) and ask it to delete the files above and restore the backup.
