@@ -1,4 +1,4 @@
-// Modified from the `agents` mod shipped with Herdr (Apache-2.0). See NOTICE.
+// Modified from the `agents` mod shipped with Herdr (Apache-2.0).
 // Agents in grouped or priority views; parents take their most urgent sub-agent's place.
 // A viewed done agent stays in Done until left.
 
